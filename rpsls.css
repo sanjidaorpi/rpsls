@@ -1,0 +1,86 @@
+body{
+  font: 18px helvetica;
+  text-align: center;
+  background: black;
+  color: lime;
+  margin: 10%;
+}
+section>h1{
+  font-size: 25px;
+  border: 5px double lime;
+    color: lime;
+}
+button{
+  background: purple;
+  color: white;
+  border: none;
+  padding: 2.5%;
+  font: 1.1em helvetica;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+button:active {
+  background: RGBa(130,69,200,.5);
+}
+.scoreboard {
+  width: 50%;
+  margin: auto;
+  border: 10px double purple;
+  border-radius: 2%
+}
+.scoreboard h2 {
+  border-bottom: 1px solid purple;
+  margin: 0;
+  padding: 2%;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 3%;
+}
+ul{
+  text-align: left;
+}
+#status {
+  margin-top: 20px;
+}
+#introduction{
+  width: 60%;
+  margin: auto;
+}
+@media (max-width: 850px) {
+  h1{
+    font-size: 25px;
+  }
+  section>h1{
+    font-size: 20px;
+    border: 5px double RGBa(130,69,200,.5);
+  }
+  #introduction{
+    width: 90%;
+  }
+  .scoreboard td {
+    font-size: 2em;
+  }
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
